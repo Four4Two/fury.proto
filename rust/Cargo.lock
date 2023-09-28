@@ -855,7 +855,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "terra-proto-rs"
+name = "fury-proto-rs"
 version = "4.0.0"
 dependencies = [
  "getrandom",
@@ -866,7 +866,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "terra_proto_generator"
+name = "fury_proto_generator"
 version = "0.1.0"
 dependencies = [
  "getrandom",

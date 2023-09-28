@@ -7,7 +7,7 @@ exports.Store = exports.protobufPackage = void 0;
 /* eslint-disable */
 const long_1 = __importDefault(require("long"));
 const minimal_1 = __importDefault(require("protobufjs/minimal"));
-exports.protobufPackage = "terramoney.jax.jax";
+exports.protobufPackage = "furymoney.jax.jax";
 const baseStore = { value: "" };
 exports.Store = {
     encode(message, writer = minimal_1.default.Writer.create()) {

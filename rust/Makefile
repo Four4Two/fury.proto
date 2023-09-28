@@ -7,12 +7,12 @@ init:
 
 proto-gen: 
 	@echo "Generating Protobuf files"
-	cargo run --bin terra_proto_generator
+	cargo run --bin fury_proto_generator
 
 build: 
 	cargo build
 
 publish:
-	cargo publish -p terra-proto-rs
+	cargo publish -p fury-proto-rs
 
 .PHONY: all proto-gen format init build publish

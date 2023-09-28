@@ -1,15 +1,15 @@
 [package]
-name = "terra-proto-rs"
+name = "fury-proto-rs"
 description = "Clients used to interact with Terra Blockchain from Rust. It can be used directly in CosmWasm smart contracts or from external blockchain API."
 version = "4.0.0"
-authors = ["Terra Money Core <core@terra.money>"]
+authors = ["Terra Money Core <core@fury.money>"]
 edition = "2021"
 rust-version = "1.65"
 publish = true
-homepage = "https://terra.money"
-repository = "https://github.com/terra-money/terra.proto"
+homepage = "https://fury.money"
+repository = "https://github.com/four4two/fury.proto"
 license = "Apache-2.0"
-keywords = ["terra-money", "alliance", "cosmos-sdk", "proto", "blockchain"]
+keywords = ["fury-money", "alliance", "cosmos-sdk", "proto", "blockchain"]
 
 [dependencies]
 prost = "0.11"

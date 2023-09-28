@@ -1394,7 +1394,7 @@ pub mod query_client {
         }
         /// Query a specific alliance by ibc hash
         /// @deprecated: this endpoint will be replaced for by the encoded version
-        /// of the denom e.g.: GET:/terra/alliances/ibc%2Falliance
+        /// of the denom e.g.: GET:/fury/alliances/ibc%2Falliance
         pub async fn ibc_alliance(
             &mut self,
             request: impl tonic::IntoRequest<super::QueryIbcAllianceRequest>,
@@ -1516,7 +1516,7 @@ pub mod query_client {
         }
         /// Query a delegation to an alliance by delegator addr, validator_addr and denom
         /// @deprecated: this endpoint will be replaced for by the encoded version
-        /// of the denom e.g.: GET:/terra/alliances/terradr1231/terravaloper41234/ibc%2Falliance
+        /// of the denom e.g.: GET:/fury/alliances/furydr1231/furyvaloper41234/ibc%2Falliance
         pub async fn ibc_alliance_delegation(
             &mut self,
             request: impl tonic::IntoRequest<super::QueryIbcAllianceDelegationRequest>,
@@ -1554,7 +1554,7 @@ pub mod query_client {
         }
         /// Query for rewards by delegator addr, validator_addr and denom
         /// @deprecated: this endpoint will be replaced for by the encoded version
-        /// of the denom e.g.: GET:/terra/alliances/terradr1231/terravaloper41234/ibc%2Falliance
+        /// of the denom e.g.: GET:/fury/alliances/furydr1231/furyvaloper41234/ibc%2Falliance
         pub async fn ibc_alliance_delegation_rewards(
             &mut self,
             request: impl tonic::IntoRequest<super::QueryIbcAllianceDelegationRewardsRequest>,
@@ -1664,7 +1664,7 @@ pub mod query_server {
         ) -> Result<tonic::Response<super::QueryAlliancesResponse>, tonic::Status>;
         /// Query a specific alliance by ibc hash
         /// @deprecated: this endpoint will be replaced for by the encoded version
-        /// of the denom e.g.: GET:/terra/alliances/ibc%2Falliance
+        /// of the denom e.g.: GET:/fury/alliances/ibc%2Falliance
         async fn ibc_alliance(
             &self,
             request: tonic::Request<super::QueryIbcAllianceRequest>,
@@ -1701,7 +1701,7 @@ pub mod query_server {
         ) -> Result<tonic::Response<super::QueryAllianceDelegationResponse>, tonic::Status>;
         /// Query a delegation to an alliance by delegator addr, validator_addr and denom
         /// @deprecated: this endpoint will be replaced for by the encoded version
-        /// of the denom e.g.: GET:/terra/alliances/terradr1231/terravaloper41234/ibc%2Falliance
+        /// of the denom e.g.: GET:/fury/alliances/furydr1231/furyvaloper41234/ibc%2Falliance
         async fn ibc_alliance_delegation(
             &self,
             request: tonic::Request<super::QueryIbcAllianceDelegationRequest>,
@@ -1713,7 +1713,7 @@ pub mod query_server {
         ) -> Result<tonic::Response<super::QueryAllianceDelegationRewardsResponse>, tonic::Status>;
         /// Query for rewards by delegator addr, validator_addr and denom
         /// @deprecated: this endpoint will be replaced for by the encoded version
-        /// of the denom e.g.: GET:/terra/alliances/terradr1231/terravaloper41234/ibc%2Falliance
+        /// of the denom e.g.: GET:/fury/alliances/furydr1231/furyvaloper41234/ibc%2Falliance
         async fn ibc_alliance_delegation_rewards(
             &self,
             request: tonic::Request<super::QueryIbcAllianceDelegationRewardsRequest>,

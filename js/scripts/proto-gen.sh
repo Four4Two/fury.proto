@@ -19,7 +19,7 @@ WASMD_DIR=$(readlink -f "../wasmd/proto")
 GRPC_DIR=$(readlink -f "../grpc-gateway")
 JAX_DIR=$(readlink -f "../jax/proto")
 COSMOS_DIR=$(readlink -f "../cosmos-proto/proto")
-TERRA_DIR=$(readlink -f "../terra/proto")
+TERRA_DIR=$(readlink -f "../fury/proto")
 POB_DIR=$(readlink -f "../pob/proto")
 
 protoc  \

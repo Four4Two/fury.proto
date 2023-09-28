@@ -80,7 +80,7 @@ fn compile_protos_and_services() {
     .unwrap();
     let wasmd_dir = fs::canonicalize(PathBuf::from("../wasmd/proto")).unwrap();
     let cosmos_dir = fs::canonicalize(PathBuf::from("../cosmos-proto/proto")).unwrap();
-    let terra_dir = fs::canonicalize(PathBuf::from("../terra/proto")).unwrap();
+    let fury_dir = fs::canonicalize(PathBuf::from("../fury/proto")).unwrap();
     let pob_dir = fs::canonicalize(PathBuf::from("../pob/proto")).unwrap();
 
     let proto_dirs = vec![
@@ -90,7 +90,7 @@ fn compile_protos_and_services() {
         pfm_dir.clone(),
         wasmd_dir.clone(),
         cosmos_dir.clone(),
-        terra_dir.clone(),
+        fury_dir.clone(),
         pob_dir.clone(),
     ];
     let include_dirs = vec![
@@ -105,7 +105,7 @@ fn compile_protos_and_services() {
         fs::canonicalize(PathBuf::from("../grpc-gateway/third_party")).unwrap(),
         fs::canonicalize(PathBuf::from("../grpc-gateway/third_party/googleapis")).unwrap(),
         cosmos_dir,
-        terra_dir,
+        fury_dir,
         pob_dir,
     ];
 

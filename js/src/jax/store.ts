@@ -2,7 +2,7 @@
 import Long from "long";
 import _m0 from "protobufjs/minimal";
 
-export const protobufPackage = "terramoney.jax.jax";
+export const protobufPackage = "furymoney.jax.jax";
 
 export interface Store {
   value: string;

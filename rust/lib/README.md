@@ -1,12 +1,12 @@
 # Rust Terra Proto
 
-Clients used to interact with Terra Blockchain from Rust. It can be used directly with CosmWasm smart contracts [as for example on Alliance Hub](https://github.com/terra-money/alliance-protocol) or from an external blockchain API.
+Clients used to interact with Terra Blockchain from Rust. It can be used directly with CosmWasm smart contracts [as for example on Alliance Hub](https://github.com/four4two/alliance-protocol) or from an external blockchain API.
 
 ## Usage in CosmWasm
 
-Add terra-proto-rs into the Cargo.toml from your smart contract with default-features to false that way you avoid importing libraries that will make your smart contract fail:
+Add fury-proto-rs into the Cargo.toml from your smart contract with default-features to false that way you avoid importing libraries that will make your smart contract fail:
 ```Cargo.toml
-terra-proto-rs = {version = "4.0.0", default-features = false}
+fury-proto-rs = {version = "4.0.0", default-features = false}
 ```
 ## Available models for CosmWasm
 
@@ -127,7 +127,7 @@ When building a smart contract you can use the following messages natively witho
 
 ### Example
 
-Extracting and simplifying a code snippet the delegate function in [Alliance Hub](https://github.com/terra-money/alliance-protocol/blob/main/contracts/alliance-hub/src/contract.rs#L329-L361) smart contract from Alliance Protocol:
+Extracting and simplifying a code snippet the delegate function in [Alliance Hub](https://github.com/four4two/alliance-protocol/blob/main/contracts/alliance-hub/src/contract.rs#L329-L361) smart contract from Alliance Protocol:
 
 ```rs
 fn alliance_delegate(
@@ -152,7 +152,7 @@ fn alliance_delegate(
         };
         ///
         // Creating the Stargate message to be routed on the alliance module
-        // from terras blockchain on Response::message
+        // from furys blockchain on Response::message
         ///
         msgs.push(CosmosMsg::Stargate {
             type_url: "/alliance.alliance.MsgDelegate".to_string(),

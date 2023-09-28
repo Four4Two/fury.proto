@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "terra-proto"
-authors = ["Terraform Labs, PTE. <engineering@terra.money>"]
+name = "fury-proto"
+authors = ["Terraform Labs, PTE. <engineering@fury.money>"]
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
@@ -12,12 +12,12 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
 ]
 description = "DEPRECATED Python Protobuf implementation for Terra"
-homepage = "https://github.com/terra-money/terra.proto"
-keywords = ["jigu", "blockchain", "terra", "defi", "crypto"]
+homepage = "https://github.com/four4two/fury.proto"
+keywords = ["jigu", "blockchain", "fury", "defi", "crypto"]
 license = "MIT"
-packages = [{ include = "terra_proto" }]
+packages = [{ include = "fury_proto" }]
 readme = "README.md"
-repository = "https://github.com/terra-money/terra.proto"
+repository = "https://github.com/four4two/fury.proto"
 version = "4.0.2"
 
 [tool.poetry.dependencies]

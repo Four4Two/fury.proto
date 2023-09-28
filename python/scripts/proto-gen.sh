@@ -8,7 +8,7 @@ pip install --upgrade "betterproto[compiler]" --pre
 echo "install MarkupSafe==2.0.1 due to dependency"
 pip install MarkupSafe==2.0.1
 
-OUT_DIR="./terra_proto"
+OUT_DIR="./fury_proto"
 
 mkdir -p "$OUT_DIR"
 
@@ -21,7 +21,7 @@ PFM_DIR=$(readlink -f "../ibc-apps/middleware/packet-forward-middleware/proto")
 WASMD_DIR=$(readlink -f "../wasmd/proto")
 GRPC_DIR=$(readlink -f "../grpc-gateway")
 COSMOS_DIR=$(readlink -f "../cosmos-proto/proto")
-TERRA_DIR=$(readlink -f "../terra/proto")
+TERRA_DIR=$(readlink -f "../fury/proto")
 POB_DIR=$(readlink -f "../pob/proto")
 
 protoc  \

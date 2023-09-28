@@ -1,6 +1,6 @@
 import Long from "long";
 import _m0 from "protobufjs/minimal";
-export declare const protobufPackage = "terramoney.jax.jax";
+export declare const protobufPackage = "furymoney.jax.jax";
 export interface Store {
     value: string;
 }

@@ -2411,7 +2411,7 @@ export interface Query {
   /**
    * Query a specific alliance by ibc hash
    * @deprecated: this endpoint will be replaced for by the encoded version
-   * of the denom e.g.: GET:/terra/alliances/ibc%2Falliance
+   * of the denom e.g.: GET:/fury/alliances/ibc%2Falliance
    *
    * @deprecated
    */
@@ -2452,7 +2452,7 @@ export interface Query {
   /**
    * Query a delegation to an alliance by delegator addr, validator_addr and denom
    * @deprecated: this endpoint will be replaced for by the encoded version
-   * of the denom e.g.: GET:/terra/alliances/terradr1231/terravaloper41234/ibc%2Falliance
+   * of the denom e.g.: GET:/fury/alliances/furydr1231/furyvaloper41234/ibc%2Falliance
    *
    * @deprecated
    */
@@ -2468,7 +2468,7 @@ export interface Query {
   /**
    * Query for rewards by delegator addr, validator_addr and denom
    * @deprecated: this endpoint will be replaced for by the encoded version
-   * of the denom e.g.: GET:/terra/alliances/terradr1231/terravaloper41234/ibc%2Falliance
+   * of the denom e.g.: GET:/fury/alliances/furydr1231/furyvaloper41234/ibc%2Falliance
    *
    * @deprecated
    */

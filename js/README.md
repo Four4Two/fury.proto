@@ -1,4 +1,4 @@
-# terra.proto
+# fury.proto
 
 ## Maintenance
 
